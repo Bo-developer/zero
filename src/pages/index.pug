@@ -1,0 +1,15 @@
+extends common/layout
+
+block main
+  //include includes/index/top-posts
+  .container
+    .center-cols
+      main.main
+        include includes/index/home-articles
+        include includes/index/pagination
+      aside.aside.widgets
+        include includes/modules/about-me
+        include includes/modules/subscribe
+        include includes/modules/popular-posts
+        include includes/modules/categories
+        include includes/modules/advert

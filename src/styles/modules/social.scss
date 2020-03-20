@@ -1,0 +1,41 @@
+.social {
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    margin-right: 20px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    display: block;
+
+    &:hover,
+    &:focus,
+    &:active {
+      outline-color: #fb7c56;
+
+      .social__ico {
+        fill: #fb7c56;
+      }
+    }
+  }
+
+  &__ico {
+    display: block;
+    fill: #fff;
+    transition: 0.3s ease-out;
+
+
+  }
+
+  @media (max-width: 767px) {
+
+  }
+}
